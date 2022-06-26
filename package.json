@@ -18,8 +18,8 @@
     "express": "^4.17.1",
     "heroku": "^7.60.2",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.12",
-    "stack": "heroku-20"
+    "nodemon": "^2.0.12"
+    
   }
   
 }
