@@ -75,6 +75,6 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
-app.listen(3001, () => {
+app.listen(process.env.PORT||3001, () => {
   console.log("rodando na porta 3001");
 });
