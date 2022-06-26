@@ -74,7 +74,7 @@ app.delete("/delete/:id", (req, res) => {
     }
   });
 });
-
+//$ heroku logs --tail --app your_app_name
 app.listen(process.env.PORT||3001, () => {
   console.log("rodando na porta 3001");
 });
