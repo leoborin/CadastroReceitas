@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const cors = require("cors");
 
 const db = mysql.createPool({
@@ -75,4 +75,6 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || 3001);
+app.listen(3001, () => {
+  console.log("rodando na porta 3001");
+});
