@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "stack": "heroku-22",
   "scripts": {
     "start": "node index.js",
     "devStart": "nodemon index.js",
@@ -22,7 +23,7 @@
     "nodemon": "^2.0.12"
    
     
-  },
-  "stack": "heroku-22"
+  }
+  
   
 }
