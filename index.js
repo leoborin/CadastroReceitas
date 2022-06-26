@@ -75,4 +75,4 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3001);

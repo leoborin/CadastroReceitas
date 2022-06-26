@@ -3,27 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "stack": "heroku-22",
   "scripts": {
     "start": "node index.js",
     "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
-    
   },
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "course": "^0.0.1",
     "express": "^4.17.1",
-    "heroku": "^7.60.2",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.12"
-   
-    
   }
-  
-  
 }
