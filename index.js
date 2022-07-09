@@ -4,10 +4,10 @@ const mysql = require("mysql2");
 const cors = require("cors");
 
 const db = mysql.createPool({
-  host: "35.247.237.135",
-  user: "myuser",
-  password: "123456",
-  database: "TEST",
+  host: "us-cdbr-east-06.cleardb.net",
+  user: "b71bf2b04093af",
+  password: "c941933b",
+  database: "heroku_00077021a87bf2d",
 });
 
 app.use(express.json());
@@ -38,7 +38,7 @@ app.post("/search", (req, res) => {
 });
 
 app.get("/getCards", (req, res) => {
-  let mysql = "SELECT * FROM games";
+  let mysql = "SELECT * FROM heroku_00077021a87bf2d.games";
   db.query(mysql, (err, result) => {
     if (err) {
       console.log(err);
